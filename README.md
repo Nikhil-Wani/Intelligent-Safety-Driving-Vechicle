@@ -6,12 +6,14 @@ The project aims to build a autonomous vehicle prototype which can autonomously 
 
 # Steps
 
-Initially, starting from capturing the frames from the driving environment.
+1. Initially, starting from capturing the frames from the driving environment.
 
-Then converting the captured image frame from RGB to Grayscale. 
+2. Then converting the captured image frame from RGB to Grayscale. 
 
-From the converted gray scale image, obtaining information about edges of the path and to detect objects (obstacles) in front of the vehicle.
+3. From the converted gray scale image, obtaining information about region of interest
 
-From the edges of the path detected and the objects captured training the vehicle accordingly using Neural network.
+4. From the region og interest we find lane and lines of roads
 
-Recording these sets of data and from this recorded sets of data the vehicle drives on its own.
+5. From the edges of the path detected and the objects captured training the vehicle accordingly using Neural network.
+
+5. Recording these sets of data and from this recorded sets of data the vehicle drives on its own.
