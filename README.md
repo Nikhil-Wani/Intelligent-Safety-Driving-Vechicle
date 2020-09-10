@@ -12,3 +12,8 @@ The project aims to build a autonomous vehicle prototype which can autonomously 
 4. From the region of interest, we find lane and lines of roads.
 5. From the lanes and lines data train the model.
 5. Recording these sets of data and from this recorded sets of data the vehicle drives on its own.
+
+
+# Conclusion
+
+This project uses artificial intelligence technique for tracking and detection of the lanes. The camera elevation angle and position and illumination affects in the algorithm used for detecting lanes. The core of the project is a neural network, which is trained using  images of the "road" ahead and user input. At run time, the same images are used to activate the neural network, and the resulting action is executed on the robot. While a simple vision-based system cannot be expected to perform flawlessly but acceptable performance is achived through this intellige selfty driving vehicle.
